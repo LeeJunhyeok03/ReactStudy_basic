@@ -1,3 +1,5 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
 .orange {
   color: orange;
 }
@@ -10,10 +12,82 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
   margin-bottom: 1rem;
+  position: relative;
+
+}
+
+
+.new {
+  background-color: aquamarine;
+  color: #333;
+  text-align: center;
+  padding: 3px 5px;
+  border-radius: 2px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Avarta {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: relative;
 }
 
 .photo {
   width: 200px;
   height: 200px;
   border-radius: 100%;
+
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: gold;
+  font-weight: bold;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(215, 127, 12);
+}
+
+.counter:hover {
+  background-color: rgb(246, 243, 197);
+}
+
+.number {
+  font-size: 7rem;
+}
+.number span {
+  font-size: 1rem;
+  margin-left: -1.5rem;
+}
+
+.button {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgb(215, 127, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 127, 12, 1) 0%,
+    rgba(253, 220, 29, 1) 100%
+  );
 }
